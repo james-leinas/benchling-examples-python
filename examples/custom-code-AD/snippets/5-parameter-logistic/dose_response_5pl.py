@@ -15,10 +15,6 @@ OUTPUTS:
     - "5pl_parameters"      pd.DataFrame  — EC50, Hill slope, Asymmetry, R², AIC, ± SE
     - "aggregated_data"     pd.DataFrame  — Mean ± SEM per concentration
     - "dose_response_curve" go.Figure     — Interactive 5PL plot with residuals subplot
-
-Supported packages:
-allotropy, biopython, lmfit, numpy, openpyxl, pandas, plotly,
-pyarrow, pydantic, scikit-learn, scipy, statsmodels
 """
 
 from io import BytesIO
